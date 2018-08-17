@@ -14,14 +14,14 @@ permalink: /spark-parquet-reading
  of files. Typically these files are stored on HDFS. In a seprate post 
  I will explain more details about the internals of Parquet, but for here
  we focus on what happens when you call
+
+<!-- more --> 
   
 ```scala
  val parquetFileDF = spark.read.parquet("intWithPayload.parquet")
 ```
 as documented in the Spark SQL programming 
 [guide](https://spark.apache.org/docs/latest/sql-programming-guide.html#parquet-files).
-
-<!-- more --> 
 
  *Note:* This blog post is work in progress with its content, accuracy, 
  and of course, formatting. 

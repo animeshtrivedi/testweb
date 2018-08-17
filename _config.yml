@@ -1,8 +1,20 @@
-title: Researcher
-url: "https://ankitsultana.com"
+# Site settings
+title: Animesh Trivedi
+email: animesh.trivedi@gmail.com
+description: "Homepage of Animesh Trivedi"
 baseurl: ""
+url: "https://animeshtrivedi.github.io"
+github_username:  animeshtrivedi
 
+# Build settings
 markdown: kramdown
+excerpt_separator: "<!-- more -->"
+
+# Number of news stories on the front page.
+front_page_news: 5
+
+gems:
+  - jekyll-sitemap
 
 tracking_id: #
 
@@ -13,4 +25,7 @@ footer_text: "Page design by Ankit Sultana"
 sass:
     style: compressed
     sass_dir: _sass
+
+
+
 

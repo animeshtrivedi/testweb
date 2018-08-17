@@ -22,7 +22,7 @@ My main research areas are networking, operating systems, and distributed system
 
 <h2>What is new</h2>
 <ul class="news list-unstyled">
-{% for post in site.categories limit: site.front_page_news %}
+{% for post in site.categories.news limit: site.front_page_news %}
     {% if post.shortnews %}
         <li class="shortnews">
             <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>
@@ -38,5 +38,6 @@ My main research areas are networking, operating systems, and distributed system
 </ul>
 {% assign numposts = site.categories.news | size %}
 {% if numposts >= site.front_page_news %}
-<p><a href="{{ site.base }}/blog/">more posts&hellip;</a></p>
+<p><a href="{{ site.base }}/news/">more posts&hellip;</a></p>
 {% endif %}
+
