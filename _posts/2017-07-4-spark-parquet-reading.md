@@ -2,6 +2,7 @@
 layout: default
 title: "How Spark reads parquet files"
 category: blog
+tags: whatsnew
 permalink: /spark-parquet-reading
 ---
 

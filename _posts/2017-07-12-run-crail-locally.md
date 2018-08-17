@@ -2,6 +2,7 @@
 layout: default
 title: "How to run Crail locally on your laptop"
 category: blog
+tags: whatsnew
 permalink: /run-crail-locally
 ---
 
