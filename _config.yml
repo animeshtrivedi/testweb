@@ -1,6 +1,6 @@
 title: Researcher
 url: "https://ankitsultana.com"
-baseurl: "/researcher"
+baseurl: ""
 
 markdown: kramdown
 
@@ -13,3 +13,4 @@ footer_text: "Page design by Ankit Sultana"
 sass:
     style: compressed
     sass_dir: _sass
+

@@ -1,11 +1,9 @@
 ---
 layout: default
-is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
 
-* Phone: [+91-123123](tel:+91-123123)
+Email me at: firstname.lastname@alumni.ethz.ch. I am also on [Github](https://github.com/animeshtrivedi) and [LinkedIn](https://ch.linkedin.com/in/animesh-trivedi-5407aa2).
 
 ---
 

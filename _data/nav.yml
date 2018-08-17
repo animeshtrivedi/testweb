@@ -1,8 +1,11 @@
-- name: "Contact"
-  link: "contact"
+- name: "Blog"
+  link: "/blog"
 
-- name: "Resume"
-  link: "resume.pdf"
+- name: "Projects"
+  link: "/project"
+
+- name: "Publications"
+  link: "/publications"
 
 - name: "About"
-  link: "/researcher/"
+  link: "/"

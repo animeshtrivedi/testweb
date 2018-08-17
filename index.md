@@ -4,42 +4,39 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="sherlock.jpg">
+{% raw %}
+<a href="/images/animeshtrivedi-large.jpeg" title="View larger picture"><img src="/images/animeshtrivedi-small.jpeg" alt="Photo of Animesh Trivedi"
+style="float:right;width:25%;max-width:150px;margin-left:15px;"/></a>
+{% endraw %}
 
-Hi! I am a junior year student of B.E. Computer Science at Birla Institute of Technology and Science, Pilani.
+I am Animesh Trivedi, a Research Staff Member (RSM) in Cloud and Computing Infrastructure group at the IBM Research Lab, Zurich Switzerland. Earlier in 2016, I finished my PhD in Computer Science at ETH Zurich under the supervision of Prof. Thomas Gross.
 
-This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher)
+### Contact
+Email me at: firstname.lastname@alumni.ethz.ch. I am also on [Github](https://github.com/animeshtrivedi) and [LinkedIn](https://ch.linkedin.com/in/animesh-trivedi-5407aa2).
+
 
 ## Research Interest
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
+My main research areas are networking, operating systems, and distributed systems. Broadly speaking, I am interested in the performance aspect of systems, spanning from multi-core CPUs to distributed environments. In the past, I have designed, developed, and evaluated systems around high-performance RDMA networks and NVM storage. Currently, I am investigating how modern high-performance devices (think 100 Gbps network, NVMe/3DXP storage, etc.) can be leveraged in large-scale data processing systems such as Spark, Tensorflow, serverless workloads, etc. I am one of the founding contributors of the [Apache Crail (Incubating)](https://crail.incubator.apache.org/) project. 
 
-## Publications
 
-1. F.Bar, J.Doe: Effects of having a placeholder of a name
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
-
-## Typography
-
-This is a [link](http://google.com). Something *italics* and something **bold**.
-
-Here is a table
-
-Year | Award | Category
------|-------|--------
-2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
-2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
-2014 | Satellite | Won Best Actor miniseries or television film
-
-Here is a horizontal rule
-
----
-
-Here is a blockquote
-
-> To a great mind, nothing is little
-
-## References
-
-* Foo Bar: Head of Department, Placeholder Names, Lorem
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
+<h2>What is new</h2>
+<ul class="news list-unstyled">
+{% for post in site.categories limit: site.front_page_news %}
+    {% if post.shortnews %}
+        <li class="shortnews">
+            <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>
+            {{ post.content }}
+        </li>
+    {% else %}
+        <li class="bloglink">
+            <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>
+            <a href="{{ post.url }}">&raquo; {{ post.title }}</a>
+        </li>
+    {% endif %}
+{% endfor %}
+</ul>
+{% assign numposts = site.categories.news | size %}
+{% if numposts >= site.front_page_news %}
+<p><a href="{{ site.base }}/blog/">more posts&hellip;</a></p>
+{% endif %}
