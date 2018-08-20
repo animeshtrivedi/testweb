@@ -3,7 +3,8 @@ title: Animesh Trivedi
 email: animesh.trivedi@gmail.com
 description: "Homepage of Animesh Trivedi"
 baseurl: ""
-url: "https://animeshtrivedi.github.io"
+#url: "https://animeshtrivedi.github.io"
+url: "https://animeshtrivedi.github.io/testweb/"
 github_username:  animeshtrivedi
 
 # Build settings
