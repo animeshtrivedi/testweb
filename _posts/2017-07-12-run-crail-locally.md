@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "How to run Crail locally on your laptop"
+title: "New blog: How to run Crail locally on your laptop"
 category: blog
 tags: whatsnew
 permalink: /run-crail-locally
 ---
 
-## How to run Crail File System locally using netty 
+### How to run Crail File System locally using netty 
 
 In this blog post I am going to show how to run Crail file system (CrailFS) 
 from [www.crail.io](www.crail.io) ([github](https://github.com/zrlio/crail)) 

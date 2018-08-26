@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "How Spark reads parquet files"
+title: "New blog: How Spark reads parquet files"
 category: blog
 tags: whatsnew
 permalink: /spark-parquet-reading
 ---
 
-## How does Apache Spark read a parquet file
+### How does Apache Spark read a parquet file
 
  
  In this post I will try to explain what happens when Apache Spark tries 

@@ -6,7 +6,8 @@ layout: default
 style="float:right;width:25%;max-width:150px;margin-left:15px;"/></a>
 {% endraw %}
 
-I am Research Staff Member (RSM) in Cloud and Computing Infrastructure group at the IBM Research Lab, Zurich Switzerland. 
+I am Research Staff Member (RSM) in Cloud and Computing Infrastructure group at the IBM Research Lab, Zurich, Switzerland. Before joining the lab, I finished my PhD in Computer Science at ETH Zurich under the supervision of Prof. Thomas Gross.
+
 
 My main research areas are networking, operating systems, and distributed systems. Broadly speaking, I am interested in the performance aspect of systems, spanning from multi-core CPUs to distributed environments. Currently, I am investigating how modern high-performance devices (100+ Gbps network, NVMe/3DXP storage, etc.) can be leveraged in large-scale data-processing systems such as Spark, Tensorflow, serverless workloads. I am one of the founding contributors of the [Apache Crail (Incubating)](https://crail.incubator.apache.org/) project. 
 
@@ -38,14 +39,14 @@ Email me at: firstname.lastname@alumni.ethz.ch. I am also on [Github](https://gi
 
 ### Selected Recent Publications
 
-  * Pocket: Ephemeral Storage for Serverless Analytics. Ana Klimovic, Yawen Wang, and Christos Kozyrakis, Patrick Stuedi, Animesh Trivedi, and Jonas Pfefferle, in the 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI'18), Carlsbad, CA, 2018. 
+  * Pocket: Ephemeral Storage for Serverless Analytics, Ana Klimovic, Yawen Wang, Christos Kozyrakis, Patrick Stuedi, Animesh Trivedi, Jonas Pfefferle, Proceedings of the *13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2018)*, Carlsbad, CA, USA, October 2018.
 
-  * Albis: High-Performance File Format for Big Data Systems. Animesh Trivedi, Patrick Stuedi, Jonas Pfefferle, Adrian Schuepbach, and Bernard Metzler, in the 2018 USENIX Annual Technical Conference (ATC), Boston, MA, USA, July 11-13, 2018.
+  * Understanding Ephemeral Storage for Serverless Analytics, Ana Klimovic, Yawen Wang, Christos Kozyrakis, Patrick Stuedi, Jonas Pfefferle, Animesh Trivedi, Proceedings of the *2018 USENIX Annual Technical Conference (USENIX ATC 18)*, Boston, MA, USA, July 2018. 
 
-  * Navigating Storage for Serverless Analytics. Ana Klimovic, Yawen Wang, Christos Kozyrakis, Patrick Stuedi, Jonas Pfefferle, and Animesh Trivedi, in the 2018 USENIX Annual Technical Conference (ATC), Boston, MA, USA, July 11-13, 2018.
+  * Albis: High-Performance File Format for Big Data Systems, Animesh Trivedi, Patrick Stuedi, Jonas Pfefferle, Adrian Schuepbach, Bernard Metzler, Proceedings of the *2018 USENIX Annual Technical Conference (USENIX ATC 18)*, Boston, MA, USA, July 2018. 
+
 
 Full list is <a href="{{ site.base }}/publications/"> here</a>.
-
 
 ### Program Committees
   * ACM SYSTOR (2019)
